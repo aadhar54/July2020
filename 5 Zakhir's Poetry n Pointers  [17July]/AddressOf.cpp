@@ -12,6 +12,7 @@ int main() {
     //It doesnt work for character variables
     char ch = 'A';
     //Explicit Typecasing from char* to void*
+    cout<<&ch<<endl; // does not work so we use void * 
     cout<<(void *)&ch <<endl;
 
 return 0;
