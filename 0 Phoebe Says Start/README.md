@@ -4,4 +4,4 @@
 
 <img src="../img/phoebephone.jpg" style="display: block;
   margin-left: auto;
-  margin-right: auto;">
+  margin-right: auto; width:200%">
