@@ -15,7 +15,10 @@ public:
 int main() {
     //static int a;
     Car C;
+    Car C1;
+
     cout<<C.price<<endl; //zero
+     cout<<C1.price<<endl;
     //Initialisation
     C.price =500; 
     cout<<C.price<<endl; // 500
@@ -24,8 +27,9 @@ int main() {
     C.name[1] = 'M';
     C.name[2] = 'W';
     C.name[3] = '\0';
- 
-    C.start();
+    cout<<C.name<<endl;
+    cout<<C1.name<<endl;;
+    //C.start();
     //cout<<sizeof(C)<<endl; // C is an actual object 28 bytes
     //cout<<sizeof(Car)<<endl; // It will take 28 bytes
     //Car C[100]; //Array an objects
